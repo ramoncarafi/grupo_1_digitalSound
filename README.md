@@ -22,4 +22,4 @@ Ofertando productos con gran variedad de precios y adaptando las estrategias de 
 - Ramiro Sturla
 - Santiago Martin Gouffier
 - Joaquin Giannetti: Tengo 28 años, soy Lic. en Economía Empresarial, y trabajo como controller de negocio. Tengo algo de experiencia en programación, e ingresé a este curso para reorientar mi perfil profesional. Me gusta la música, los fichines, y la comida.  
-- Juanma Fernández Casenave
+- Juan Manuel Fernández Casenave: 49 años, soy Administrador de Consorcios, trabajo por cuenta propia. Administro edificios y complejos residenciales en toda la CABA. Felizmente casado desde hace 25 años. Orgulloso papá de Nicolás (20 años) y Micaela (18 años).
