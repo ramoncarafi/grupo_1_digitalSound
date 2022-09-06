@@ -9,7 +9,7 @@ Ofertando productos con gran variedad de precios y adaptando las estrategias de 
 
 #### Sitios de referencia
 - https://www.samash.com/: utiliza muchas imágenes de instrumentos y te permite ver con facilidad exactamente lo que estás buscando. 
-- https://www.famusic.com.ar/: página principal muy simple y amigable. Fácil de entender y contiene un carrusel de más vendidos y ofertas del día.  
+- https://www.famusic.com.ar/: página principal muy simple y amigable. Fácil de entender y contiene un carrusel de más vendidos y ofertas del día. Está armada siguiendo el modelo de MercadoShops, por lo que es un buen ejemplo para estudiar formatos enlatados.  
 - https://www.guitarcenter.com/: cada blosque tiene una imagen muy clara del tipo de instrumento y te lleva directamente a esa categoría, ahorrandote tener que usar el     desplegable y hacer varios clicks.
 - https://www.zildjian.com/: el contraste de colores y el diseño de la página da una sensación y estética de alta calidad. 
 - https://www.musiciansfriend.com/: tiene un layout muy simple y amigable. El carrusel está muy bien hecho y resalta las ofertas del sitio. 
@@ -21,5 +21,5 @@ Ofertando productos con gran variedad de precios y adaptando las estrategias de 
 - Ramón Carafí
 - Ramiro Sturla
 - Santiago Martin Gouffier
-- Joaquin Giannetti: Tengo 28 años, soy Lic. en Economía Empresarial, y trabajo como controller en Mercado Envíos. Tengo algo de experiencia en programación, e ingresé a este curso para reorientar mi perfil profesional. Me gusta la música, los fichines, y la comida.  
+- Joaquin Giannetti: Tengo 28 años, soy Lic. en Economía Empresarial, y trabajo como controller de negocio. Tengo algo de experiencia en programación, e ingresé a este curso para reorientar mi perfil profesional. Me gusta la música, los fichines, y la comida.  
 - Juanma Fernández Casenave
