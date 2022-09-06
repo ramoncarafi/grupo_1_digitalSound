@@ -14,3 +14,12 @@ Ofertando productos con gran variedad de precios y adaptando las estrategias de 
 - https://www.zildjian.com/: el contraste de colores y el diseño de la página da una sensación y estética de alta calidad. 
 - https://www.musiciansfriend.com/: tiene un layout muy simple y amigable. El carrusel está muy bien hecho y resalta las ofertas del sitio. 
 - https://www.sweetwater.com/: el header contiene pocos títulos y uno de ellos es un desplegable, haciendo que no esté inundado de texto el header.
+
+
+### Descripción de integrantes del grupo:
+
+- Ramón Carafí
+- Ramiro Sturla
+- Santiago Martin Gouffier
+- Joaquin Gianetti
+- Juanma Fernández Casenave
