@@ -21,5 +21,5 @@ Ofertando productos con gran variedad de precios y adaptando las estrategias de 
 - Ramón Carafí
 - Ramiro Sturla
 - Santiago Martin Gouffier
-- Joaquin Gianetti
+- Joaquin Giannetti: Tengo 28 años, soy Lic. en Economía Empresarial, y trabajo como controller en Mercado Envíos. Tengo algo de experiencia en programación, e ingresé a este curso para reorientar mi perfil profesional. Me gusta la música, los fichines, y la comida.  
 - Juanma Fernández Casenave
