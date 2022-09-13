@@ -22,7 +22,7 @@ Ofertando productos con gran variedad de precios y adaptando las estrategias de 
 ### Descripción de integrantes del grupo:
 
 - Ramón Carafí: tengo 25 años, soy ingeniero industrial del itba y trabajo como product owner en Agrotoken, una startup que se dedica a la tokenización de granos (soja, trigo y maíz) mediante smartcontracts en la redes de Ethereum, Polygon y Algorand. Combinamos el mundo del agro con el mundo de blockchain. Hincha del rey de copas 👺.
-- Ramiro Sturla
+- Ramiro Sturla: tengo 25 años, estoy recibido de Lic. en Administración de Empresas y trabajo como analista controller en Exxon Mobil. Estoy estudiando programación para poder en algún momento del futuro poder crear algo propio y tener algún negocio totalmente digital. Practicante y amante de la música y el deporte. 
 - Santiago Martin Gouffier: 29 años, trabajo como administrativo contable en una Caja de Seguridad Social en la Pcia. de BsAs. Estudié Administración de empresas, y me capacité en gestión de proyectos. Me anoté en este curso para de incorporar nuevas herramientas con la finalidad de cambiar mi rumbo laboral y poder dedicarme a esto en un futuro cercano. Me gusta viajar por sobre todas las cosas.      
 - Joaquin Giannetti: Tengo 28 años, soy Lic. en Economía Empresarial, y trabajo como controller de negocio. Tengo algo de experiencia en programación, e ingresé a este curso para reorientar mi perfil profesional. Me gusta la música, los fichines, y la comida.  
 - Juan Manuel Fernández Casenave: 49 años, soy Administrador de Consorcios, trabajo por cuenta propia. Administro edificios y complejos residenciales en toda la CABA. Felizmente casado desde hace 25 años. Orgulloso papá de Nicolás (20 años) y Micaela (18 años).
