@@ -1,0 +1,23 @@
+{
+  "name": "grupo_1_digitalsound",
+  "version": "1.0.0",
+  "description": "Nuestro sitió estará orientado a la comercialización de: \r - Instrumentos musicales de varios tipos \r - Productos de audio profesional",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramoncarafi/grupo_1_digitalSound.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramoncarafi/grupo_1_digitalSound/issues"
+  },
+  "homepage": "https://github.com/ramoncarafi/grupo_1_digitalSound#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
