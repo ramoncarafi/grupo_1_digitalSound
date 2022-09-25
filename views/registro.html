@@ -3,30 +3,41 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Log In</title>
-        <!-- <link rel="stylesheet" href="/css/styles.css"> -->
+        <title>Registro</title>
+        <link rel="stylesheet" href="/css/login-styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div>
-            <h1>¡Crea una cuenta!</h1>
-            <h4>Crear una cuenta es rápido, fácil y gratis! Con ella vas a poder acceder a todas las facilidades que tenemos para ofrecerte</h4>
-            <h3>Nombre</h3>
-                <input placeholder="Ingresá tu nombre" >
-            <h3>Apellido</h3>
-                <input placeholder="Ingresá tu apellido" >
-            <h3>Email</h3>
-                <input placeholder="Ingresá tu mail" >
-            <h3>Contraseña</h3>
-                <input placeholder="Ingresá tu contraseña" >
-            <h3>Repeti contraseña</h3>
-                <input placeholder="Repeti tu contraseña" >
-            <h1><button>Crear cuenta</button></h1>
-        </div>    
-        <div>
-            <h4>Al crear una cuenta, aceptar nuestros términos y condiciones</h4>
-            <h1>O ingresá con tus redes sociales</h1>
-            <h3><button>Continuar con Facebook</button></h3>
-            <h3><button>Continuar con Google</button></h3>
-            <h3><button>Continuar con Apple</button></h3>
+        <div class="login-block">
+            <h2>¡Crea una cuenta!</h2>
+            <p class="legend">Crear una cuenta es rápido, fácil y gratis! Con ella vas a poder acceder a todas las facilidades que tenemos para ofrecerte</p>
+            <form action="#" method="GET" class="form-ingreso">
+                <div class="control-formulario control-formulario--name-surname">
+                    <input placeholder="Nombre">
+                    <input placeholder="Apellido">
+                </div>
+                <div class="control-formulario">
+                    <input placeholder="Email">
+                </div>
+                <div class="control-formulario">
+                    <input placeholder="Contraseña">
+                </div>
+                <div class="control-formulario">
+                    <input placeholder="Repetir contraseña">
+                </div>
+                <button type="submit" class="button button--submit">Crear cuenta</button>
+                </form>
+            </div>
+        <p class="legend">Al crear una cuenta, aceptar nuestros <a href=#>términos y condiciones</a></p>    
+        <div class="login-block">
+            <h3>O ingresá con tus redes sociales</h3>
+            <hr>
+            <div class="social-networks">
+                <button class="button button--facebook">Continuar con Facebook</button>
+                <button class="button button--google">Continuar con Google</button>
+                <button class="button button--apple">Continuar con Apple</button>
+            </div>
         </div>        
     </body>
