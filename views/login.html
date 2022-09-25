@@ -14,10 +14,14 @@
             <h2>Iniciar sesión o <a href="/registro">crear una cuenta</a></h2>
             <form action="#" method="GET" class="form-ingreso">
                 <div class="control-formulario">
-                    <input placeholder="Email" >
+                    <input type="email" name="email" placeholder="Email" >
                 </div>
                 <div class="control-formulario">
-                    <input placeholder="Contraseña">
+                    <input type="password" name="password" placeholder="Contraseña">
+                </div>
+                <div class="control-formulario control-formulario--remember">
+                    <label>Recuérdame</label>
+                    <input type="checkbox" name="remember">
                 </div>
                 <div class="control-formulario">
                     <button type="submit" class="button button--submit">Continuar</button>

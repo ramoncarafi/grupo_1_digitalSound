@@ -55,16 +55,18 @@ div.control-formulario input,button{
     width: 60%;
 }
 
-.control-formulario--name-surname{
+.control-formulario--remember {
     display: flex;
-    width:60%;
-    margin: auto;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 5px 0px
 }
 
-div.control-formulario--name-surname input{
-    margin: 2px 0px;
-    width: 49%;
+div.control-formulario--remember input, label{
+    font-size: 12px;
+    color: #666;
+    width: 30%;
+    text-align: left;
+    margin: 0px -2px;
 }
 
 .button {
