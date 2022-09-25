@@ -94,3 +94,46 @@ div.control-formulario--name-surname input{
 .button--apple {
     background-color: #000;
 }
+
+.vertical-line{
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    body {
+        display: flex;
+        max-width: 1000px;
+    }
+
+    .legend-box{
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        margin: 20px auto;
+    }
+
+    .body-flexbox {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-block {
+        width: 50%;
+    }
+
+    .legend-register{
+        display: none;
+    }
+
+    hr {
+        visibility: hidden;
+    }
+
+    .vertical-line {
+        display: block;
+        border-left: solid 1px black
+    }
+}
