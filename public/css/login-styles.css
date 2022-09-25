@@ -1,0 +1,72 @@
+* {
+    font-family: 'Yantramanav', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    max-width: 400px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.login-block {
+    margin: 20px 0px;
+}
+
+.login-block h3 {
+    padding-bottom: 10px;
+}
+
+.login-block hr {
+    width: 80%;
+    margin: auto;
+}
+
+.form-ingreso {
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.social-networks {
+    padding-top: 10px;
+}
+
+div.control-formulario input,button{
+    margin: 2px;
+    width: 60%;
+}
+
+.button {
+    border: none;
+    border-radius: 15px;
+    width: 60%;
+    padding: 2px;
+    margin: 2px;
+    font-weight: bold;
+    color: #FFF
+}
+
+.button--submit {
+    background-color: #666;
+    border-radius: 5px;
+}
+
+.button--facebook {
+    background-color: #3b5998;
+}
+
+.button--google {
+    background-color: #db4437;
+}
+
+.button--apple {
+    background-color: #000;
+}
