@@ -22,10 +22,18 @@
 
 .section-precio-cant__contenedor-precio {
     width: 250px;
+    border: solid 1px green;
 }
+
+.section-resumen-compra__boton {
+    display: flex;
+    justify-content: center;
+}
+
 
 .section-precio-cant__contenedor-cant {
     width: 109px;
+    border: solid 1px blue;
 }
 
 .section-precio-cant__contenedor-precio--txt-precio{
