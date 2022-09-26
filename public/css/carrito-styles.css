@@ -1,0 +1,41 @@
+* {
+    font-family: 'Yantramanav', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.section-resumen-compra {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.section-resumen-compra__titulo {
+    font-size: 16px;
+}
+
+.section-precio-cant {
+    display: flex;
+    align-items: baseline;
+}
+
+.section-precio-cant__contenedor-precio {
+    width: 250px;
+}
+
+.section-precio-cant__contenedor-cant {
+    width: 109px;
+}
+
+.section-precio-cant__contenedor-precio--txt-precio{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.section-precio-cant__contenedor-precio--txt-cant {
+    font-size: 12px;
+    font-size: 10px;
+    font-weight: 300;
+    text-align: right;
+}
