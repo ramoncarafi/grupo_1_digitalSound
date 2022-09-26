@@ -5,6 +5,16 @@
     padding: 0;
 }
 
+body {
+    width: 90%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
 .section-resumen-compra {
     display: flex;
     flex-direction: column;
@@ -18,21 +28,31 @@
 .section-precio-cant {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 
 .section-precio-cant__contenedor-precio {
-    width: 250px;
+    width: 45%;
     border: solid 1px green;
+
 }
 
 .section-resumen-compra__boton {
     display: flex;
     justify-content: center;
+    margin-top: 5px;
 }
 
 
+.section-resumen-compra__boton button {
+    margin: auto;
+    border: solid 1px #000;
+    border-radius: 5px;
+
+}
+
 .section-precio-cant__contenedor-cant {
-    width: 109px;
+    width: 45%;
     border: solid 1px blue;
 }
 
