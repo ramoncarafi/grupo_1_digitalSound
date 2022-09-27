@@ -8,22 +8,20 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/969d33ecfa.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <!-- inicio del cuerpo del carrito de compras-->
-        <main>
-            
+        <main>         
             <!-- section para el resumen del carrito
                     1. en la version mobile está encolumnada con el resto de la info
                     2. en la versión desktop está en una columan a la derecha
             -->
-
             <section class="section-resumen-compra">
                 <!-- div 1/3 del resumen del carrito, solo el título-->
                 <div>
                     <h4 class="section-resumen-compra__titulo">Carrito de Compras</h4>
                 </div>
-                
                 <!-- div 2/3 del resumen del carrito, precio y cant de items-->
                 <div class="section-precio-cant">
                     <div class="section-precio-cant__contenedor-precio">
@@ -32,21 +30,64 @@
                     <div class="section-precio-cant__contenedor-cant">
                         <p class="section-precio-cant__contenedor-precio--txt-cant" >3 items cargados</p>
                     </div>
-                </div>
-                
+                </div>              
                 <!-- div 3/3 del resumen del carrito, botón de compra-->
                 <div class="section-resumen-compra__boton">
                     <form>
                         <button type="submit">Comprar Ahora</button>
                     </form>
-
                 </div>
-
             </section>
-
             <!-- section principal del carrito donde se muestra la info de los productos-->
-            <section>
-
+            <section class="products">
+                <article class="cart-product">
+                    <div class="product-info">
+                        <div class="product-image">
+                            <img src="images/fender-american-elite-jazz-bass-v-nat_1.webp">
+                        </div>
+                        <div class="product-details">
+                            <h4>Fender Jazz Bass 60th Aniversary</h4>
+                            <p class="sku">SKU #XXX</p>
+                            <div class="product-description">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit dolorum libero eligendi sequi quos consequatur neque? Laborum, veritatis! Deleniti facere obcaecati dolorem hic similique sequi, nobis repudiandae aperiam vel modi?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-quantity">
+                        <div class="product-total-price">
+                            $1.234
+                        </div>
+                        <div class="product-quantity">
+                            <i class="fa-solid fa-square-minus"></i>
+                            <input type="tel" name="shopping-cart-quantity" class="quantity-input">
+                            <i class="fa-solid fa-square-plus"></i>
+                        </div>
+                    </div>
+                </article>
+                <article class="cart-product">
+                    <div class="product-info">
+                        <div class="product-image">
+                            <img src="images/tama-dynasync.jpg">
+                        </div>
+                        <div class="product-details">
+                            <h4>Tama HSSd1 Dyna-Sync</h4>
+                            <p class="sku">SKU #XXX</p>
+                            <div class="product-description">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit dolorum libero eligendi sequi quos consequatur neque? Laborum, veritatis! Deleniti facere obcaecati dolorem hic similique sequi, nobis repudiandae aperiam vel modi?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-quantity">
+                        <div class="product-total-price">
+                            $1.234
+                        </div>
+                        <div class="product-quantity">
+                            <i class="fa-solid fa-square-minus"></i>
+                            <input type="tel" name="shopping-cart-quantity" class="quantity-input">
+                            <i class="fa-solid fa-square-plus"></i>
+                        </div>
+                    </div>
+                </article>
             </section>
 
         </main>
