@@ -10,9 +10,16 @@ body {
     margin: auto;
 }
 
+main {
+    position: relative;
+}
+
 h2 {
-    font-size: 30px;
-    margin-bottom: 5px;
+    display:none;
+}
+
+.cart-columns-head {
+    display:none;
 }
 
 .section-resumen-compra {
@@ -34,6 +41,11 @@ h2 {
 .section-precio-cant__contenedor-precio {
     width: 45%;
 }
+
+.section-precio-cant__contenedor-iva,  .section-precio-cant__contenedor-grand-total{
+    display: none
+}
+
 
 .section-resumen-compra__boton {
     justify-content: center;
@@ -80,6 +92,8 @@ h2 {
 }
 
 .cart-product{
+    display: flex;
+    flex-direction: column;
     margin-top:25px;
     height: 180px;
     padding: 10px;
@@ -129,8 +143,10 @@ p.sku{
 }
 
 
-div.product-total-price, div.product-quantity{
-    width: 45%;
+div.price-quantity-div, div.price-x-quantity{
+    display: flex;
+    justify-content: center;
+    width: 33%;
     text-align: center;
 }
 
@@ -139,7 +155,104 @@ div.product-quantity i{
     height:20px;
 }
 
+.price-x-quantity {
+    display: none;
+}
+
 .quantity-input{
     width:20px;
     height:20px;
+}
+
+@media (min-width: 768px) {
+
+    h2 {
+        display: flex;
+        padding: 0px 10px;
+        font-size: 20px;
+    }
+    .cart-columns-head {
+        display:flex;
+        width:75%;
+        padding:0px 10px;
+        border-bottom: solid 1px #000;
+    }
+
+    .section-resumen-compra {
+        position: absolute;
+        right: 0;
+        padding: 10px;
+        margin-top:20px;
+        border: solid 2px #000;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .section-resumen-compra__titulo{
+        display: none;
+    }
+
+    .section-precio-cant__contenedor-cant {
+        width: 100%;
+    }
+
+    .section-precio-cant__contenedor-precio--txt-cant::before{
+        content: 'Compra: '
+    }
+
+    .section-precio-cant__contenedor-precio, .section-precio-cant__contenedor-iva,  .section-precio-cant__contenedor-grand-total {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        order: 1;
+        margin-top:10px;
+    }
+
+    .section-resumen-compra__boton {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .section-precio-cant {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .section-precio-cant__contenedor-precio p{
+        font-size: 16px;
+        font-weight: normal;
+        color: #000;
+    }
+
+    .section-precio-cant__contenedor-grand-total{
+        font-size: 18px;
+        font-weight: 700;
+        color: #666;
+    }
+
+    section.products {
+        width: 75%;
+        margin-top: 0px;
+    }
+
+    .cart-product{
+        flex-direction: row;
+        margin-top: 0px;
+    }
+    
+    .product-info{
+        width:50%;
+        margin-top: 10px;
+    }
+
+    .price-quantity{
+        width: 50%;
+    }
+
+    .price-x-quantity{
+        display: flex;
+    }
 }
