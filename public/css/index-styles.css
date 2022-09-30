@@ -24,14 +24,62 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
-    min-width: 100px;
-    min-height: 60px;
+    width: 135px;
+    height: 60px;
     border: solid 1px black;
-    margin: 15px;
+    margin: 10px;
     overflow: hidden;
+}
+
+.categories--guitars{
+    background-image: url('../images/Gitarre-Bass.jpg');
+    background-position: center;
+    background-size: contain; 
+}
+
+.categories--drums{
+    background-image: url('../images/drums.jpg');
+    background-position: center;
+    background-size: 100% 100%;  
+}
+
+.categories--amps{
+    background-image: url('../images/wallofamps.jpg');
+    background-position: center;
+    background-size: 100% 100%;  
+}
+
+.categories--accesories{
+    background-image: url('../images/cool-guitar-gadgets-682x351.png');
+    background-position: center;
+    background-size: 100% 100%;  
+}
+
+body h3 {
+    text-align: left;
 }
 
 .popular-items {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-flow: column;
+    margin: 10px 0px;
+    width: 45%;
+    align-items: center;
+    border: solid 1px black;
+}
+
+.item img {
+    margin: 5px;
+    height: 100px;
+    length: 100px;
+}
+
+.item .item-description {
+    text-align: left;
 }
