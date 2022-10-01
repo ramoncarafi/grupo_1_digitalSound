@@ -5,47 +5,74 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Registro</title>
         <link rel="stylesheet" href="/css/register-styles.css">
+        <link rel="stylesheet" href="/css/header-footer-styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/969d33ecfa.js" crossorigin="anonymous"></script>
         
     </head>
     <body>
-        <div class="legend-box">
-            <p class="legend">Crear una cuenta es rápido, fácil y gratis! Con ella vas a poder acceder a todas las facilidades que tenemos para ofrecerte</p>
-        </div>
-        <div class="body-flexbox">
-            <div class="login-block">
-                <h2>¡Crea una cuenta!</h2>
-                <p class="legend legend-register">Crear una cuenta es rápido, fácil y gratis! Con ella vas a poder acceder a todas las facilidades que tenemos para ofrecerte</p>
-                <form action="#" method="GET" class="form-ingreso">
-                    <div class="control-formulario control-formulario--name-surname">
-                        <input placeholder="Nombre">
-                        <input placeholder="Apellido">
+        <header>
+            <div class="top-header">
+                    <div class="menu-logo">
+                    <div class="burger-menu">
+                        <i class="fas fa-bars"></i>
                     </div>
-                    <div class="control-formulario">
-                        <input placeholder="Email">
+                    <div class="logo">
+                        <h2>Digital Sound</h2>
+                        <!--<img src="#" alt="DigitalSound">-->
                     </div>
-                    <div class="control-formulario">
-                        <input placeholder="Contraseña">
-                    </div>
-                    <div class="control-formulario">
-                        <input placeholder="Repetir contraseña">
-                    </div>
-                    <button type="submit" class="button button--submit">Crear cuenta</button>
-                    </form>
-                <p class="legend legend--tyc">Al crear una cuenta, aceptas nuestros <a href=#>términos y condiciones</a></p>    
+                </div>
+                <form class="form-desktop" action="#" method="GET">
+                    <input type="text" name="search" placeholder="Buscar productos, marcas, y más" class="input">
+                    <button type="submit" class="submit"><i class="fa fa-search"></i></button>
+                </form>
+                <nav class="header-nav">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-user"></i>
+                </nav>
             </div>
-            <div class="vertical-line" style="height: 150px">
+
+        </header>
+        <main>
+            <div class="legend-box">
+                <p class="legend">Crear una cuenta es rápido, fácil y gratis! Con ella vas a poder acceder a todas las facilidades que tenemos para ofrecerte</p>
             </div>
-            <div class="login-block">
-                <h3>O ingresá con tus redes sociales</h3>
-                <hr>
-                <div class="social-networks">
-                    <button class="button button--facebook">Continuar con Facebook</button>
-                    <button class="button button--google">Continuar con Google</button>
-                    <button class="button button--apple">Continuar con Apple</button>
+            <div class="body-flexbox">
+                <div class="login-block">
+                    <h2>¡Crea una cuenta!</h2>
+                    <p class="legend legend-register">Crear una cuenta es rápido, fácil y gratis! Con ella vas a poder acceder a todas las facilidades que tenemos para ofrecerte</p>
+                    <form action="#" method="GET" class="form-ingreso">
+                        <div class="control-formulario control-formulario--name-surname">
+                            <input placeholder="Nombre">
+                            <input placeholder="Apellido">
+                        </div>
+                        <div class="control-formulario">
+                            <input placeholder="Email">
+                        </div>
+                        <div class="control-formulario">
+                            <input placeholder="Contraseña">
+                        </div>
+                        <div class="control-formulario">
+                            <input placeholder="Repetir contraseña">
+                        </div>
+                        <button type="submit" class="button button--submit">Crear cuenta</button>
+                        </form>
+                    <p class="legend legend--tyc">Al crear una cuenta, aceptas nuestros <a href=#>términos y condiciones</a></p>    
+                </div>
+                <div class="vertical-line" style="height: 150px">
+                </div>
+                <div class="login-block">
+                    <h3>O ingresá con tus redes sociales</h3>
+                    <hr>
+                    <div class="social-networks">
+                        <button class="button button--facebook">Continuar con Facebook</button>
+                        <button class="button button--google">Continuar con Google</button>
+                        <button class="button button--apple">Continuar con Apple</button>
+                    </div>
                 </div>
             </div>
-        </div>        
+        </main>        
     </body>

@@ -12,9 +12,10 @@ body {
 
 main {
     position: relative;
+    margin-top: 55px;
 }
 
-h2 {
+main h2 {
     display:none;
 }
 
