@@ -14,6 +14,34 @@ body {
     flex-direction: column;
 }
 
+.carrousel{
+    position: relative;
+}
+
+.carrousel img{
+    width: 100%;
+    max-height: 250px;
+    margin: 25px 0px;
+}
+
+.carrousel i{
+    position: absolute;
+    top: 50%;
+    color: #FFF;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 50%;
+    width: 20px;
+    padding: 2px;
+}
+
+.fa-chevron-right {
+    right: 5px;
+}
+
+.fa-chevron-left {
+    left: 5px;
+}
+
 .categories{
     display: flex;
     justify-content: space-around;
@@ -29,6 +57,11 @@ body {
     border: solid 1px black;
     margin: 10px;
     overflow: hidden;
+}
+
+article a {
+    background-color: rgba(0,0,0,0.3);
+    color: #FFF;
 }
 
 .categories--guitars{
@@ -72,14 +105,63 @@ body h3 {
     width: 45%;
     align-items: center;
     border: solid 1px black;
+    padding: 2px;
 }
 
 .item img {
     margin: 5px;
     height: 100px;
-    length: 100px;
+    width: 100px;
 }
 
 .item .item-description {
     text-align: left;
+}
+
+@media (min-width: 768px) {
+    body {
+        display: flex;
+        max-width: 800px;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    h2 {
+        display: none;
+    }
+
+    .categories{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .categories article{
+        width: 22%;
+    }
+
+    body h3 {
+        text-align: center;
+    }
+
+    .popular-items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .item {
+        display: flex;
+        margin: 5px;
+        width: 20%;
+        border: none;
+        align-items: center;
+        padding: 1px;
+    }
+
+    .item .item-description {
+        text-align: center;
+    }
+
+
 }
