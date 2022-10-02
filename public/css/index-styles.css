@@ -5,17 +5,18 @@
 }
 
 body {
+    position: relative;
+}
+
+main {
     display: flex;
     margin: auto;
+    margin-top: 55px;
     padding: 0px 10px;
     width: 90%;
     text-align: center;
     max-width: 400px;
     flex-direction: column;
-}
-
-main {
-    margin-top: 55px;
 }
 
 .carrousel {
@@ -61,7 +62,7 @@ main {
     align-items: center;
     width: 135px;
     height: 60px;
-    border: solid 1px black;
+    border: solid 1px  rgba(0,0,0,0.3);
     margin: 10px;
     overflow: hidden;
 }
@@ -102,18 +103,21 @@ body h3 {
 .popular-items {
     position: relative;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    margin-top: 10px;
 }
 
 .item {
     display: flex;
     flex-flow: column;
-    margin: 5px 0px;
-    width: 50%;
+    justify-content: space-evenly;
+    width: 40%;
     align-items: center;
-    border: solid 0.5px black;
-    padding: 2px;
+    border: solid 0.5px  rgba(0,0,0,0.3);
+    margin: 0px 10px;
+    padding: 10px;
 }
 
 .item img {
@@ -123,11 +127,15 @@ body h3 {
 }
 
 .item .item-description {
-    text-align: left;
+    text-align: center;
+}
+
+.item p{
+    display: none;
 }
 
 @media (min-width: 768px) {
-    body {
+    main {
         display: flex;
         max-width: 800px;
         text-align: center;
@@ -180,6 +188,10 @@ body h3 {
 
     .item .item-description {
         text-align: center;
+    }
+
+    .item p{
+        display: block;
     }
 
 

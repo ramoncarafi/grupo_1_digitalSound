@@ -40,3 +40,17 @@ header .top-header{
 .top-header i{
     width: 30px;
 }
+
+footer{
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    margin: 15px 0px;
+    padding: 5px;
+}
+
+footer div.contact{
+    display: flex;
+    width: 33%;
+    justify-content: space-evenly
+}
