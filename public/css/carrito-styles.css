@@ -47,3 +47,18 @@
     font-weight: 300;
     text-align: right;
 }
+
+.section-article {
+    width: 100%;
+    display: flex;
+}
+
+.section-article__img {
+    width: 150px;
+    height: 200px;
+    background-color: pink;
+}
+
+.section-article__info {
+
+}
