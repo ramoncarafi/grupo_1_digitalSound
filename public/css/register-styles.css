@@ -5,19 +5,20 @@
 }
 
 body {
-    display: flex;
     margin: auto;
-    padding: 10px;
-    width: 90%;
+    overflow-x: hidden;
     text-align: center;
-    max-width: 400px;
+    
+}
+
+
+main {
+    margin-top: 110px;
+    width: 100vw;
+    display: flex;
     flex-direction: column;
+    align-items: center;   
 }
-
-main{
-    margin-top: 55px;
-}
-
 .legend-box{
     display: none;
 }
@@ -107,7 +108,8 @@ div.control-formulario--name-surname input{
 
     body {
         display: flex;
-        max-width: 1000px;
+        text-align: center;
+        flex-direction: column;
     }
 
     .legend-box{
@@ -139,5 +141,8 @@ div.control-formulario--name-surname input{
     .vertical-line {
         display: block;
         border-left: solid 1px black
+    }
+    .icono-search{
+        display:none !important;
     }
 }

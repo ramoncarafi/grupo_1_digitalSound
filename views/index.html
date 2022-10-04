@@ -13,7 +13,7 @@
         <title>Digital Sound</title>
     </head>
     <body>
-        <header>
+        <header>   
             <div class="top-header">
                     <div class="menu-logo">
                     <div class="burger-menu">
@@ -21,29 +21,55 @@
                     </div>
                     <div class="logo">
                         <h2>Digital Sound</h2>
-                        <!--<img src="#" alt="DigitalSound">-->
+                        <i class-="fa-solid fa-guitar"></i>
                     </div>
                 </div>
+                <div class="header-center">
+                    <div class="search-container">
+                <button type="submit" class="submit"><i class="fa fa-search"></i></button>
+               
                 <form class="form-desktop" action="#" method="GET">
-                    <input type="text" name="search" placeholder="Buscar productos, marcas, y más" class="input">
-                    <button type="submit" class="submit"><i class="fa fa-search"></i></button>
+                
+                    <div class="input-container">
+                        
+                    <input type="text" name="search" placeholder="Encontrá el sonido que estás buscando!" class="input-search">
+                    
+                </div>
                 </form>
-                <nav class="header-nav">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <i class="fa-solid fa-user"></i>
-                </nav>
+            </div>
+            </div>
+                <div class="header-right">
+                    <i class="fa fa-search icono-search" ></i>
+                    <i class="fa-solid fa-cart-shopping icono"></i>
+                    <i class="fa-solid fa-user icono"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="bottom-header">
+            <a href="login.html" style="margin-left:5px">Guitarras y Bajos</a>
+            <p>|</p>
+            <a href="login.html">Baterias</a>
+            <p>|</p>
+            <a href="login.html">Amplificadores</a>
+            <p>|</p>
+            <a href="login.html">Accesorios</a>
+            <p>|</p>
+            <a href="login.html">Marcas</a>
+            <p>|</p>
+            <a href="login.html">Nuevos Ingresos</a>
+            <p>|</p>
+            <a href="login.html">Usados</a>
+
             </div>
 
         </header>
         <main>
-            <section>
-                <h2>Ofertas del día</h2>
-                <div class='carrousel'>
-                    <img src="images\music-store.jpg">
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <i class="fa-solid fa-chevron-left"></i>
-                </div>
+            <div class="main-container">
+            <h2>Ofertas del día</h2>
+            <section class='carrousel'>
+                <img src="images\music-store.jpg">
+                <i class="fa-solid fa-chevron-right"></i>
+                <i class="fa-solid fa-chevron-left"></i>
             </section>
                 <!-- no hace falta el button, generalmente se envuelve la imagen en un link -->
                 <!-- 
@@ -51,72 +77,85 @@
                     Así si hacés click en cualqueir parte de la imagen te lleva al link especificdo
                     en href
                 -->
-            <section>
-                <nav class="categories">
-                    <article class="categories categories--guitars">
-                        <a href="#">Guitarras y bajos </a>
-                    </article>
-                    <article class="categories categories--drums">
-                        <a href="#">Baterias</a>
-                    </article>
-                    <article class="categories categories--amps">
-                        <a href="#">Amplificadores</a>
-                    </article>
-                    <article class="categories categories--accesories">
-                        <a href="#">Accesorios</a>
-                    </article>
-                </nav>
-            </section>
-            <section>
-                <h3>Más vendidos</h3>
-                <div class="popular-items">
-                    <div class="item">
-                        <img src="images\fender-jazz-bass.jpg">
-                        <div class="item-description">
-                            <h4>Fender Jazz Bass</h4>
-                            <p>Lorem ipsum</p>
-                            <h5>$1.234</h5>
-                        </div>
+            <nav class="categories">
+                <article class="categories categories--guitars">
+                    <a href="#">Guitarras y bajos</a>
+                </article>
+                <article class="categories categories--drums">
+                    <a href="#">Baterias</a>
+                </article>
+                <article class="categories categories--amps">
+                    <a href="#">Amplificadores</a>
+                </article>
+                <article class="categories categories--accesories">
+                    <a href="#">Accesorios</a>
+                </article>
+            </nav>
+            <h3>Más vendidos</h3>
+            <div class="popular-items">
+                <div class="item">
+                    <img src="images\fender-jazz-bass.jpg">
+                    <div class="item-description">
+                        <h4>Fender Jazz Bass</h4>
+                        <p>Lorem ipsum</p>
+                        <h5>$1.234</h5>
                     </div>
-                    <div class="item">
-                        <img src="images\fender-jazz-bass.jpg">
-                        <div class="item-description">
-                            <h4>Fender Jazz Bass</h4>
-                            <p>Lorem ipsum</p>
-                            <h5>$1.234</h5>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images\fender-jazz-bass.jpg">
-                        <div class="item-description">
-                            <h4>Fender Jazz Bass</h4>
-                            <p>Lorem ipsum</p>
-                            <h5>$1.234</h5>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images\fender-jazz-bass.jpg">
-                        <div class="item-description">
-                            <h4>Fender Jazz Bass</h4>
-                            <p>Lorem ipsum</p>
-                            <h5>$1.234</h5>
-                        </div>
-                    </div>
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <i class="fa-solid fa-chevron-left"></i>
                 </div>
-        </section>
+                <div class="item">
+                    <img src="images\fender-jazz-bass.jpg">
+                    <div class="item-description">
+                        <h4>Fender Jazz Bass</h4>
+                        <p>Lorem ipsum</p>
+                        <h5>$1.234</h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images\fender-jazz-bass.jpg">
+                    <div class="item-description">
+                        <h4>Fender Jazz Bass</h4>
+                        <p>Lorem ipsum</p>
+                        <h5>$1.234</h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images\fender-jazz-bass.jpg">
+                    <div class="item-description">
+                        <h4>Fender Jazz Bass</h4>
+                        <p>Lorem ipsum</p>
+                        <h5>$1.234</h5>
+                    </div>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+        </div>
         </main>
+        
         <footer>
+            <div class="footer-container">
             <div class="contact">
                 <i class="fa-solid fa-circle-question"></i>
                 <i class="fa-solid fa-envelope"></i>
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-headset icono"></i>
             </div>
-            <div class="socials">
-                
+            <div class="footer-center">
+    
+            <a href="login.html">Acerca de Nosotros</a>
+            <p>|</p>
+            <a href="login.html">Devoluciones</a>
+            <p>|</p>
+            <a href="login.html">Lutiers</a>
+            <p>|</p>
+            <a href="login.html">Trabajá con DS</a>
+            </div>
+            <div class="footer-right">
+                   
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
             </div>
         </footer>
-
     </body>
-</html>
+    
