@@ -88,21 +88,6 @@ main h2 {
     text-align: right;
 }
 
-<<<<<<< HEAD
-.section-article {
-    width: 100%;
-    display: flex;
-}
-
-.section-article__img {
-    width: 150px;
-    height: 200px;
-    background-color: pink;
-}
-
-.section-article__info {
-
-=======
 .products{
     margin-top: 15px;
 }
@@ -271,5 +256,4 @@ div.product-quantity i{
     .price-x-quantity{
         display: flex;
     }
->>>>>>> 7f641d6341587dd3148d34e2ce0c3ca5cdfbc968
 }
