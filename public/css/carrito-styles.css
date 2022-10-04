@@ -6,13 +6,19 @@
 }
 
 body {
-    width: 90%;
     margin: auto;
+    overflow-x: hidden;
+    text-align: center;
+    
 }
 
+
 main {
-    position: relative;
-    margin-top: 55px;
+    margin-top: 110px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
 }
 
 main h2 {
