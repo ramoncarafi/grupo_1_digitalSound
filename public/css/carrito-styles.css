@@ -10,6 +10,11 @@ body {
     margin: auto;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
 main {
     position: relative;
     margin-top: 55px;
@@ -165,6 +170,10 @@ div.product-quantity i{
     height:20px;
 }
 
+.div-navprincipal {
+    display: none;
+}
+
 @media (min-width: 768px) {
 
     h2 {
@@ -254,6 +263,12 @@ div.product-quantity i{
     }
 
     .price-x-quantity{
+        display: flex;
+    }
+
+    /* Agregados por jm al carrito */
+
+    .div-navprincipal {
         display: flex;
     }
 }
