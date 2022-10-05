@@ -109,6 +109,7 @@ footer{
     background-color: #FFF;
     z-index: 1;
     border-top: 1px solid black;
+    margin-top: 50px;
 }
 
 .main-container{
