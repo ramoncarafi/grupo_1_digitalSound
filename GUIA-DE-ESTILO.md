@@ -21,24 +21,20 @@ Se requiere el uso de llaves {}, corchetes [] y paréntesis () en todas las estr
 ### Formato - modo de uso de llaves, corchetes y paréntesis
 
 Utilizar el estilo "Egipcio" en el uso de llaves, corchetes y paréntesis:
-- sin línea nueva antes {,[ o ( inicial,
+- sin línea nueva antes del {,[ o ( inicial,
 - con nueva línea después del {,[ o ( inicial,
 - línea nueva después del },] o ) final que cierra.
 
 Ejemplo:
 ``` js
-class InnerClass {
-  constructor() {}
-
-  /** @param {number} foo */
-  method(foo) {
-    if (condition(foo)) {
-      try {
-        // Note: this might fail.
-        something();
-      } catch (err) {
-        recover();
-      }
+/** @param {number} foo */
+method(foo) {
+  if (condition(foo)) {
+    try {
+      // Note: this might fail.
+      something();
+    } catch (err) {
+      recover();
     }
   }
 }
@@ -49,7 +45,7 @@ Se requiere el uso del punto y coma al finalizar cada declaración;
 
 ### Formato - longitud de las líneas
 
-Las líneas de código deberán tener un límite de 80 caracteres, cualquier línea que supere los 80 caracteres deberá seguir en la línea inferior.
+Las líneas de código deberán tener un límite de entre 80 y 110 max de caracteres, cualquier línea que supere esa cantidad deberá seguir en la línea inferior.
 
 ### Formato - comenatarios
 
@@ -63,14 +59,19 @@ Ejemplos:
  */
 
 /* This is fine, too. */
+
+/*
+Este también es un comentario 
+pero que abarca dos líneas
+*/
 ```
 ### Implementación del lengaje -- declaración local de variables
 
-Utilizar const y let. NO utilizar var.
+Utilizar const y let para declarar vaviables. NO utilizar var.
 
 ### Implementación del lengaje -- uso del camelCase
 
-Las variables deberán ser declaradas todas con camelCase, otroEjemploDeCamelCase, elTercerEjemplo.
+Las variables deberán ser declaradas todas en camelCase, otroEjemploDeCamelCase, elTercerEjemplo.
 
 ### Implementación del lengaje -- uso de Arrow functions
 
