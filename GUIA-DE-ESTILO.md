@@ -2,28 +2,28 @@
 
 Para estandarizar la escritura del código de los próximos Sprints, se propone la siguiente guía de estilo. Se toma como referencia la Guía de estilo de Google disponible en https://google.github.io/styleguide/jsguide.html 
 
-### Nombres - idioma
+### Idioma
 
 Aplicar nombres en español a todas las variables.
 
-###  Nombres - de los archivos
+###  Nombres de los archivos
 
 Los nombres de los archivos pueden contener guiones bajos (_) or guiones comunes (-), sin otros signos de puntuación.
 
-### Formato via Prettier
+### Formato - via Prettier
 
 Con el fin de estandarizar los formatos de escritura de código, utilizar la extensión Prettier. Setear VS Code para que aplique el formato Prettier automáticamente al guardar. Ver la guía de como instalar y aplicar Prettier al guardar un documento en esta página https://www.alphr.com/use-prettier-vs-code/
 
 ### Formato - uso de llaves, corchetes y paréntesis
 
-Se requiere el uso de llaves, corchetes y paréntesis en las estructuras de control.
+Se requiere el uso de llaves {}, corchetes [] y paréntesis () en todas las estructuras de control.
 
 ### Formato - modo de uso de llaves, corchetes y paréntesis
 
 Utilizar el estilo "Egipcio" en el uso de llaves, corchetes y paréntesis:
-- sin línea nueva antes del signo de puntuación inicial,
-- con nueva línea después del signo de puntuación inicial,
-- línea nueva después del signo de puntuación que cierra.
+- sin línea nueva antes {,[ o ( inicial,
+- con nueva línea después del {,[ o ( inicial,
+- línea nueva después del },] o ) final que cierra.
 
 Ejemplo:
 ``` js
@@ -53,7 +53,7 @@ Las líneas de código deberán tener un límite de 80 caracteres, cualquier lí
 
 ### Formato - comenatarios
 
-Se recomienda el uso generoso de comentario en todo el código
+Se recomienda el uso generoso de comentarios en TODO el código
 
 Ejemplos:
 ``` js
@@ -66,7 +66,7 @@ Ejemplos:
 ```
 ### Implementación del lengaje -- declaración local de variables
 
-Utilizar const y let. No utilizar var.
+Utilizar const y let. NO utilizar var.
 
 ### Implementación del lengaje -- uso del camelCase
 
@@ -103,4 +103,3 @@ class CallbackExample {
   }
 }
 ```
-
