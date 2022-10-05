@@ -4,17 +4,50 @@
     margin: 0;
 }
 
-main{
-    margin-top: 55px;
-}
-
-body {
+main {
     display: flex;
     margin: auto;
-    padding: 10px;
+    margin-top: 55px;
+    padding: 0px 10px;
     width: 90%;
     text-align: center;
     max-width: 400px;
     flex-direction: column;
 }
 
+div.item{
+    display: flex;
+    flex-direction: column;
+}
+
+div.item div, h4, img, p{
+    margin-bottom: 10px;
+}
+
+div.item h4, .stars, .item-description{
+    align-self: flex-start;
+    text-align: left;
+}
+
+.color-select {
+    display: flex;
+    justify-content: center;
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    margin: 0px 3px;
+    background: red;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+div.item img{
+    height: 200px;
+    width: 200px;
+    align-self: center;
+}
