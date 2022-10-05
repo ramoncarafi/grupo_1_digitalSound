@@ -161,6 +161,7 @@ body h3 {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        overflow: none;
     }
 
     .popular-items i{

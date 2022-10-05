@@ -121,7 +121,7 @@ main button{
 }
 
 .buy-now{
-    background-color: rgba(255,0,0,0.5);
+    background-color: #FF9900;
 }
 
 @media (min-width: 768px) {
@@ -161,6 +161,14 @@ main button{
         align-self: flex-start;
         text-align: left;
         width: 70%;
+    }
+
+    .color-select {
+        min-width: 200px;
+    }
+
+    main button{
+        min-width: 200px;
     }
 
     .summary-box{

@@ -54,6 +54,8 @@ h2 {
 div.control-formulario input,button{
     margin: 2px;
     width: 60%;
+    border-width: 1px;
+    border-radius: 5px;
 }
 
 .control-formulario--remember {

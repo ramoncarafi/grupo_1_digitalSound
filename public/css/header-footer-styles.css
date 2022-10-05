@@ -105,7 +105,6 @@ header button.submit i.fa-search{
 footer{
     height: 50px;
     flex-shrink: 0;
-    width:100vw;
     background-color: #FFF;
     z-index: 1;
     border-top: 1px solid black;
@@ -165,7 +164,7 @@ footer div.contact{
     display: none;
     align-items:center;
     justify-content:left;  
-    font-size: 12px;
+    font-size: 14px;
      
 }
 
@@ -183,7 +182,7 @@ footer div.contact{
 
 .footer-center a{
     margin-inline: 2px;
-    color: black;
+    color: #666;
     text-decoration: none;
 }
 
