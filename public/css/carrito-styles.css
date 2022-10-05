@@ -5,27 +5,11 @@
     padding: 0;
 }
 
-body {
-    margin: auto;
-    overflow-x: hidden;
-    text-align: center;
-    
-}
-
-<<<<<<< HEAD
-header {
-    display: flex;
-    flex-direction: column;
-}
-=======
->>>>>>> 15ad757277866339bbe2e129ffa45b26676136e4
-
 main {
-    margin-top: 110px;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
+    width: 90%;
+    position: relative;
+    margin: auto;
+    margin-top: 60px;
 }
 
 main h2 {
@@ -184,11 +168,16 @@ div.product-quantity i{
 
 @media (min-width: 768px) {
 
+    main {
+        margin-top: 90px;
+    }
+
     h2 {
         display: flex;
         padding: 0px 10px;
         font-size: 20px;
     }
+
     .cart-columns-head {
         display:flex;
         width:75%;
@@ -271,12 +260,6 @@ div.product-quantity i{
     }
 
     .price-x-quantity{
-        display: flex;
-    }
-
-    /* Agregados por jm al carrito */
-
-    .div-navprincipal {
         display: flex;
     }
 }

@@ -4,17 +4,193 @@
     margin: 0;
 }
 
-main{
-    margin-top: 55px;
-}
-
-body {
+main {
     display: flex;
     margin: auto;
-    padding: 10px;
+    margin-top: 55px;
+    padding: 0px 10px;
     width: 90%;
     text-align: center;
     max-width: 400px;
     flex-direction: column;
 }
+
+div.item{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+div.images{
+    position: relative
+}
+
+h4 {
+    font-size: 20px;
+}
+
+div.item img{
+    height: 200px;
+    width: 200px;
+    align-self: center;
+}
+
+.images i{
+    position: absolute;
+    top: 50%;
+    color: #FFF;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 50%;
+    width: 20px;
+    padding: 2px;
+}
+
+.fa-chevron-right {
+    right: 5px;
+}
+
+.fa-chevron-left {
+    left: 5px;
+}
+
+.miniset {
+    display: none;
+}
+
+
+div.item div, h4, img{
+    margin-bottom: 10px;
+}
+
+div.item h4, .stars, .item-description{
+    align-self: flex-start;
+    text-align: left;
+}
+
+.desc-long {
+    display: none;
+}
+
+.color-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.color-select .circle{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    margin: 0px 3px;
+    margin-bottom: 3px;
+    border: solid black 1px;
+}
+
+.circle--red{
+    background-color: red;
+}
+
+.circle--white{
+    background-color: white;
+}
+
+.circle--purple{
+    background-color: purple;
+}
+
+.circle--cream{
+    background-color: #FFFDD0;
+}
+
+.title-desktop{
+    display: none;
+}
+
+main button{
+    margin: auto;
+    width: 60%;
+    height: 30px;
+    border: solid 1px #000;
+    border-radius: 5px;
+    flex-grow: 1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buy-now{
+    background-color: rgba(255,0,0,0.5);
+}
+
+@media (min-width: 768px) {
+
+    main{
+        max-width: 90%;
+    }
+
+    div.item{
+        display: flex;
+        width: 100%;
+    }
+
+    .item-image-and-description{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .miniset {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    div.item div.miniset img{
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        border: solid 1px rgba(0,0,0,0.3)
+    }
+
+    div.summary-box div, .color-select{
+        display: flex;
+        margin: 5px 0px;
+        align-self: flex-start;
+        text-align: left;
+        width: 70%;
+    }
+
+    .summary-box{
+        position: absolute;
+        left: 50%;
+        padding: 10px;
+        margin-top:20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 25%;
+    }
+
+    .desc-long{
+        display: block;
+    }
+
+    .desc-short{
+        display: none;
+    }
+
+    .title-desktop{
+        display: block;
+    }
+
+    .title-mobile{
+        display: none;
+    }
+    
+    
+}
+
 

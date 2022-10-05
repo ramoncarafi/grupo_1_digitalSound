@@ -4,21 +4,17 @@
     margin: 0;
 }
 
-body {
-    margin: auto;
-    overflow-x: hidden;
-    text-align: center;
-    
-}
-
-
 main {
-    margin-top: 110px;
-    width: 100vw;
     display: flex;
+    margin: auto;
+    margin-top: 55px;
+    padding: 0px 10px;
+    width: 90%;
+    text-align: center;
+    max-width: 400px;
     flex-direction: column;
-    align-items: center;   
 }
+
 .legend-box{
     display: none;
 }
@@ -33,7 +29,7 @@ h2 {
 }
 
 .login-block {
-    margin: 20px 0px;
+    margin-bottom: 20px;
 }
 
 .login-block h3 {
@@ -100,4 +96,11 @@ div.control-formulario--remember input, label{
 
 .button--apple {
     background-color: #000;
+}
+
+@media (min-width: 768px) {
+
+    main {
+        margin-top: 90px;
+    }
 }
